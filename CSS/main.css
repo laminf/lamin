@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.rapper{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.banner{
+    width: 80%;
+
+}
+.banner h2 {
+    margin: auto;
+    padding: 30px 30px 20px;
+}
+
+.banner p {
+    margin: auto;
+    padding: 30px 30px 20px;
+}
+img{
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+    .rapper{
+    width: 90%;
+    
+}
+
+}
+@media screen and (min-width:1000px) {
+    .rapper
+    {
+    width: 90%;
+    display: flex;
+    flex-basis: 50%;
+    gap: 1rem;
+}
+.banner h2 {
+    margin: auto;
+    padding: 30px 0px 0px 30px;
+}
+
+.banner p {
+    margin: auto;
+    padding: 30px 0px 0px 30px;
+}
+
+
+}
